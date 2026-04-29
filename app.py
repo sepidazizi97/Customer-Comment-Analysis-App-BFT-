@@ -8,7 +8,7 @@ import os
 # APP DESIGN
 # ==============================
 st.set_page_config(
-    page_title="BFT Customer Service Review Tool",
+    page_title="BFT Customer Service Comments Review Tool",
     page_icon="🚌",
     layout="wide"
 )
@@ -76,7 +76,7 @@ with st.sidebar:
     st.write("Designed for Ben Franklin Transit")
     st.write("Data source: Track-It customer service reports")
 
-st.title("🚌 Customer Service Review Tool")
+st.title("🚌 Customer Service Comments Review Tool")
 st.write(
     "Upload a Customer Service report file to review complaint type matches, "
     "urgent priority cases, and possible Title VI-related comments."
