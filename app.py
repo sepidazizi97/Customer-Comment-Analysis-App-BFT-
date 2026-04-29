@@ -66,7 +66,7 @@ section[data-testid="stSidebar"] * {
 # ==============================
 # OPTIONAL LOGO
 # ==============================
-logo_path = "bft_logo.png"
+logo_path = "bft_logo.jpg"
 
 with st.sidebar:
     if os.path.exists(logo_path):
