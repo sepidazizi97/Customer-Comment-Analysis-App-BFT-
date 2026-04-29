@@ -72,7 +72,7 @@ with st.sidebar:
     if os.path.exists(logo_path):
         st.image(logo_path, width=180)
 
-    st.title("🚌 BFT Review Tool")
+    st.title("BFT Review Tool")
     st.write("Designed for Ben Franklin Transit")
     st.write("Data source: Track-It customer service reports")
     st.info("Upload a CSV or Excel file to begin.")
