@@ -75,7 +75,6 @@ with st.sidebar:
     st.title("BFT Review Tool")
     st.write("Designed for Ben Franklin Transit")
     st.write("Data source: Track-It customer service reports")
-    st.info("Upload a CSV or Excel file to begin.")
 
 st.title("🚌 Customer Service Review Tool")
 st.write(
