@@ -13,6 +13,56 @@ st.set_page_config(
     layout="wide"
 )
 
+st.markdown("""
+<style>
+
+/* Background */
+.main {
+    background-color: #f4f8fb;
+}
+
+/* Titles */
+h1, h2, h3 {
+    color: #167CA3;
+}
+
+/* Sidebar */
+section[data-testid="stSidebar"] {
+    background-color: #167CA3;
+    color: white;
+}
+
+/* Sidebar text */
+section[data-testid="stSidebar"] * {
+    color: white;
+}
+
+/* Buttons */
+.stButton > button {
+    background-color: #167CA3;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Download button (yellow accent) */
+.stDownloadButton > button {
+    background-color: #FFD23F;
+    color: black;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Metrics */
+[data-testid="stMetric"] {
+    background-color: #e6f2f7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+</style>
+""", unsafe_allow_html=True)
+
 # ==============================
 # OPTIONAL LOGO
 # ==============================
